@@ -1,5 +1,5 @@
 :root {
-  --body-bg-color: #eee;
+  --body-bg-color: url("/images/girl.jpg");
   --content-bg-color: #fff;
   --card-bg-color: #f5f5f5;
   --text-color: #555;
@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffb616;
+  background: #7fcbfb;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2511,10 +2511,10 @@ ul.breadcrumb li + li:last-child {
 }
 .post-body h1,
 .post-body h2 {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid url("/images/girl.jpg");
 }
 .post-body h3 {
-  border-bottom: 1px dotted #eee;
+  border-bottom: 1px dotted url("/images/girl.jpg");
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .content-wrap {
